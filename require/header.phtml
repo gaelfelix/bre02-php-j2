@@ -1,20 +1,14 @@
-<?php
-$routeHome = "home";
-$routeAbout = "about";
-$routeContact = "contact";
-?>
-
 <header>
     <nav>
         <ul>
             <li>
-                <a href="https://gaelfelix.sites.3wa.io/cours-3wa/php/bre02-php-j2/require/index.php?route=<?= $routeHome ?>">Accueil</a>
+                <a <?php $route = "home" ?> href="https://gaelfelix.sites.3wa.io/cours-3wa/php/bre02-php-j2/require/index.php?route=<?= $route ?>">Accueil</a>
             </li>
             <li>
-                <a href="https://gaelfelix.sites.3wa.io/cours-3wa/php/bre02-php-j2/require/index.php?route=<?= $routeAbout ?>">À propos</a>
+                <a <?php $route = "about" ?> href="https://gaelfelix.sites.3wa.io/cours-3wa/php/bre02-php-j2/require/index.php?route=<?= $route ?>">À propos</a>
             </li>
             <li>
-                <a href="https://gaelfelix.sites.3wa.io/cours-3wa/php/bre02-php-j2/require/index.php?route=<?= $routeContact ?>">Contact</a>
+                <a <?php $route = "contact" ?> href="https://gaelfelix.sites.3wa.io/cours-3wa/php/bre02-php-j2/require/index.php?route=<?= $route ?>">Contact</a>
             </li>
         </ul>
     </nav>
